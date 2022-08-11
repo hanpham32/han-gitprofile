@@ -19,7 +19,7 @@ const config = {
     behance: '',
     medium: '',
     dev: '',
-    website: 'hanspham.com',
+    website: '',
     phone: '2064997529',
     email: 'hanpham3230@gmail.com',
   },
