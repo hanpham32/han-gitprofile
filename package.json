@@ -1,15 +1,15 @@
 {
-  "name": "@arifszn/gitprofile",
+  "name": "@hanpham32/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "2.0.8",
   "license": "Apache-2.0",
-  "author": "arifszn",
+  "author": "Han Pham",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/hanpham32/gitprofile.git"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
+    "url": "https://github.com/hanpham32/gitprofile/issues"
   },
   "files": [
     "dist/gitprofile.es.js",
