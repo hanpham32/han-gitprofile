@@ -48,7 +48,7 @@ const config = {
   ],
   education: [
     {
-      institution: 'University of Washington',
+      institution: 'University of Washington (Bothell)',
       degree: 'Bachelor of Computer Science & Software Engineering',
       from: '2021',
       to: '2024',
