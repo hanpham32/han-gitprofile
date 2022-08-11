@@ -20,7 +20,7 @@ const config = {
     medium: '',
     dev: '',
     website: '',
-    phone: '2064997529',
+    phone: '(206)499-7529',
     email: 'hanpham3230@gmail.com',
   },
   skills: [
