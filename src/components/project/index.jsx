@@ -140,7 +140,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        My Projects
+                        My Recent Projects
                       </span>
                     )}
                   </h5>

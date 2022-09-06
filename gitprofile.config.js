@@ -22,6 +22,7 @@ const config = {
     website: '',
     phone: '(206)499-7529',
     email: 'hanpham3230@gmail.com',
+    goodreads: 'hanpham',
   },
   skills: [
     'Python',
@@ -69,7 +70,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'bumblebee',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
