@@ -26,9 +26,9 @@ const config = {
   },
   skills: [
     'Python',
+    'C++',
     'JavaScript',
     'TypeScript',
-    'Java',
     'Solidity',
     'React.js',
     'Django',
