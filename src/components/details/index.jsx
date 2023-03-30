@@ -6,6 +6,7 @@ import {
 } from 'react-icons/ai';
 import { SiTwitter } from 'react-icons/si';
 import { GrLinkedinOption } from 'react-icons/gr';
+import { GiMirrorMirror } from 'react-icons/gi';
 import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill } from 'react-icons/ri';
 import { Fragment } from 'react';
@@ -16,6 +17,7 @@ import {
   FaFacebook,
   FaGlobe,
   FaGoodreadsG,
+  FaTelegram,
 } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import { skeleton } from '../../helpers/utils';
@@ -106,14 +108,6 @@ const Details = ({ profile, loading, social, github }) => {
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
-              {social?.twitter && (
-                <ListItem
-                  icon={<SiTwitter className="mr-2" />}
-                  title="Twitter:"
-                  value={social.twitter}
-                  link={`https://twitter.com/${social.twitter}`}
-                />
-              )}
               {social?.linkedin && (
                 <ListItem
                   icon={<GrLinkedinOption className="mr-2" />}
@@ -122,12 +116,44 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
+              {social?.twitter && (
+                <ListItem
+                  icon={<SiTwitter className="mr-2" />}
+                  title="Twitter:"
+                  value={social.twitter}
+                  link={`https://twitter.com/${social.twitter}`}
+                />
+              )}
+              {social?.telegram && (
+                <ListItem
+                  icon={<FaTelegram className="mr-2" />}
+                  title="Telegram:"
+                  value={social.telegram}
+                  link={social.telegram}
+                />
+              )}
               {social?.goodreads && (
                 <ListItem
                   icon={<FaGoodreadsG className="mr-2" />}
                   title="Goodreads:"
                   value={social.goodreads}
                   link={`https://www.goodreads.com/${social.goodreads}`}
+                />
+              )}
+              {social?.medium && (
+                <ListItem
+                  icon={<AiFillMediumSquare className="mr-2" />}
+                  title="Medium:"
+                  value={social.medium}
+                  link={`https://medium.com/@${social.medium}`}
+                />
+              )}
+              {social?.mirror && (
+                <ListItem
+                  icon={<GiMirrorMirror className="mr-2" />}
+                  title="MirrorXYZ:"
+                  value={social.mirror}
+                  link={`https://mirror.xyz/${social.mirror}`}
                 />
               )}
               {social?.dribbble && (
@@ -160,14 +186,6 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Instagram:"
                   value={social.instagram}
                   link={`https://www.instagram.com/${social.instagram}`}
-                />
-              )}
-              {social?.medium && (
-                <ListItem
-                  icon={<AiFillMediumSquare className="mr-2" />}
-                  title="Medium:"
-                  value={social.medium}
-                  link={`https://medium.com/@${social.medium}`}
                 />
               )}
               {social?.dev && (

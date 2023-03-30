@@ -17,11 +17,13 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'hanspham',
+    mirror: 'hanpham.eth',
     dev: '',
     website: '',
-    phone: '(206)499-7529',
-    email: 'hanpham3230@gmail.com',
+    phone: '',
+    email: '',
+    telegram: 'hanspham',
     goodreads: 'hanpham',
   },
   skills: [
@@ -32,7 +34,6 @@ const config = {
     'Solidity',
     'React.js',
     'Django',
-    'CSS',
     'Tailwind',
     'Git',
     'Vim',
@@ -49,7 +50,7 @@ const config = {
   ],
   education: [
     {
-      institution: 'University of Washington (Bothell)',
+      institution: 'University of Washington, Bothell',
       degree: 'Bachelor of Computer Science & Software Engineering',
       from: '2021',
       to: '2024',
@@ -57,8 +58,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'hanspham', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
