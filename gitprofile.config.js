@@ -19,6 +19,7 @@ const config = {
     behance: '',
     medium: 'hanspham',
     mirror: 'hanpham.eth',
+    substack: 'hanspham',
     dev: '',
     website: '',
     phone: '',

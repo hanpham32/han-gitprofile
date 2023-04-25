@@ -250,6 +250,7 @@ GitProfile.propTypes = {
       behance: PropTypes.string,
       medium: PropTypes.string,
       dev: PropTypes.string,
+      substack: PropTypes.string,
       website: PropTypes.string,
       phone: PropTypes.string,
       email: PropTypes.string,

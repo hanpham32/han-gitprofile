@@ -4,7 +4,7 @@ import {
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
-import { SiTwitter } from 'react-icons/si';
+import { SiTwitter, SiSubstack } from 'react-icons/si';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { GiMirrorMirror } from 'react-icons/gi';
 import { CgDribbble } from 'react-icons/cg';
@@ -108,14 +108,6 @@ const Details = ({ profile, loading, social, github }) => {
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
-              {social?.linkedin && (
-                <ListItem
-                  icon={<GrLinkedinOption className="mr-2" />}
-                  title="LinkedIn:"
-                  value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
-                />
-              )}
               {social?.twitter && (
                 <ListItem
                   icon={<SiTwitter className="mr-2" />}
@@ -124,12 +116,28 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://twitter.com/${social.twitter}`}
                 />
               )}
-              {social?.telegram && (
+              {social?.substack && (
                 <ListItem
-                  icon={<FaTelegram className="mr-2" />}
-                  title="Telegram:"
-                  value={social.telegram}
-                  link={social.telegram}
+                  icon={<SiSubstack className="mr-2" />}
+                  title="Substack:"
+                  value={social.substack}
+                  link={`https://${social.substack}.substack.com/`}
+                />
+              )}
+              {social?.medium && (
+                <ListItem
+                  icon={<AiFillMediumSquare className="mr-2" />}
+                  title="Medium:"
+                  value={social.medium}
+                  link={`https://medium.com/@${social.medium}`}
+                />
+              )}
+              {social?.linkedin && (
+                <ListItem
+                  icon={<GrLinkedinOption className="mr-2" />}
+                  title="LinkedIn:"
+                  value={social.linkedin}
+                  link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
               {social?.goodreads && (
@@ -140,12 +148,12 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://www.goodreads.com/${social.goodreads}`}
                 />
               )}
-              {social?.medium && (
+              {social?.telegram && (
                 <ListItem
-                  icon={<AiFillMediumSquare className="mr-2" />}
-                  title="Medium:"
-                  value={social.medium}
-                  link={`https://medium.com/@${social.medium}`}
+                  icon={<FaTelegram className="mr-2" />}
+                  title="Telegram:"
+                  value={social.telegram}
+                  link={social.telegram}
                 />
               )}
               {social?.mirror && (
