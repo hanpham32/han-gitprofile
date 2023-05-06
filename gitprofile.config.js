@@ -23,7 +23,7 @@ const config = {
     dev: '',
     website: '',
     phone: '',
-    email: '',
+    email: 'phamhan@uw.com',
     telegram: 'hanspham',
     goodreads: 'hanpham',
   },
