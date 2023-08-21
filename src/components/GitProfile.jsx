@@ -252,6 +252,7 @@ GitProfile.propTypes = {
       dev: PropTypes.string,
       substack: PropTypes.string,
       website: PropTypes.string,
+      calendly: PropTypes.string,
       phone: PropTypes.string,
       email: PropTypes.string,
     }),

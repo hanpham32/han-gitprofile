@@ -3,6 +3,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillMediumSquare,
+  AiFillMessage,
 } from 'react-icons/ai';
 import { SiTwitter, SiSubstack } from 'react-icons/si';
 import { GrLinkedinOption } from 'react-icons/gr';
@@ -226,6 +227,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
+                />
+              )}
+              {social?.calendly && (
+                <ListItem
+                  icon={<AiFillMessage className="mr-2" />}
+                  title="Calendly"
+                  value={social.calendly}
+                  link={`https://calendly.com/${social.calendly}/`}
                 />
               )}
             </Fragment>

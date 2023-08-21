@@ -25,6 +25,7 @@ const config = {
     phone: '',
     email: 'phamhan@uw.edu',
     telegram: 'hanspham',
+    calendly: 'hanspham',
     goodreads: 'hanpham',
   },
   skills: [

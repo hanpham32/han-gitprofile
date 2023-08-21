@@ -90,6 +90,11 @@ export interface Social {
   website?: string;
 
   /**
+   * Calendly
+   */
+  calendly?: string;
+
+  /**
    * Phone
    */
   phone?: string;
